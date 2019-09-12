@@ -1,0 +1,44 @@
+
+.nav {
+    background:rgb(211, 24, 55);
+display: inline-block;
+    margin: 10px 20px;
+}
+
+
+.t1 {
+    background: rgb(211, 24, 55);
+    display:inline-block;
+    width: 25%; 
+}
+.t1 img {
+    margin-top: 30px ;
+    display: flex;  
+    justify-content: center;
+}
+.t2{
+    background:rgb(211, 24, 55);
+    display: inline-block;
+    width: 50%;
+}
+
+.t2 ul{
+    justify-content: space-between; 
+    display: flex;
+    text-decoration: none;     
+}
+.t2 a{
+color: black;
+text-decoration: none;
+}
+.buscador {
+    background: rgb(211, 24, 55);
+    display:flex;
+    align-items: center;
+    padding-left: 78%;
+    width: 25%;
+}
+.barranav {
+    display:flex;
+    align-items: center;
+}

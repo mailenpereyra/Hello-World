@@ -1,0 +1,21 @@
+.row {
+    display: flex;
+    justify-content: row;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.row img {
+    width: 59%;
+    margin: 5px 0.5%;
+}
+
+@media (min-width:566px) {
+    .row img {
+        width: 49%;
+    }
+}
+@media (min-width:991px) {
+    .row img {
+        width:32%
+    }
+}
